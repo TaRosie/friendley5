@@ -58,7 +58,7 @@ function App() {
       <div className="fc">
       <p>{fcPath}</p>
       </div>
-      <button onClick={handleClick}> Click me to Switch </button>
+      <button onClick={handleClick}> Click to see functions </button>
       </div> 
 
       <div  className="content">

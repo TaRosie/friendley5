@@ -28,9 +28,13 @@ p{
 
 .content {
   background: #ffffff55;
-  width: 80%;
+  width: 60%;
   margin: auto;
-  font-size: 25px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 20px;
 }
 
 button{
