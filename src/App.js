@@ -13,7 +13,7 @@ initializeReactGA();
 let article = [
   {
     image: './personal.png',
-    intro:"<p>Our FRIENDLEY social media platform divides the feeds of celebrities and personal communities, and includes features to encourage personal interaction.</p> <p> By simply clicking on the button under the user/celebrity image, you can change to the celebrity/user screen that reminds you of whether you are reading carefully curated celebrity content. </p><p>This app encourages you to interact with people from your friends network by accumulating interaction points.</p> ",
+    intro:"<p>Our <a href = 'https://leanstack.com/app/nyushanghai/projects/505249/canvases/607523/'> FRIENDLEY</a> social media platform divides the feeds of celebrities and personal communities, and includes features to encourage personal interaction.</p> <p> By simply clicking on the button under the user/celebrity image, you can change to the celebrity/user screen that reminds you of whether you are reading carefully curated celebrity content. </p><p>This app encourages you to interact with people from your friends network by accumulating interaction points.</p> ",
     bg:'https://bit.ly/2K2SEtn',
     function:'You can only DM and tag your friends in posts which increases the Friend interaction point between you and your friend. '
   },
