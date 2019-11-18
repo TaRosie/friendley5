@@ -45,7 +45,7 @@ function App() {
   }
 
   function link(){
-    window.location = "www.baidu.com";
+    window.location = "https://leanstack.com/app/nyushanghai/projects/505249/canvases/607523";
   }
 
   
