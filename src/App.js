@@ -46,6 +46,11 @@ function App() {
 
   function link(){
     window.location = "https://leanstack.com/app/nyushanghai/projects/505249/canvases/607523";
+
+    ReactGA.event({
+      category:'Interaction',
+      action:'Click the link'
+    });
   }
 
   
