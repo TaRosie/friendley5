@@ -14,12 +14,12 @@ let article = [
   {
     image: './personal.png',
     intro:"<p>Our <a href = 'https://leanstack.com/app/nyushanghai/projects/505249/canvases/607523/'> FRIENDLEY</a> social media platform divides the feeds of celebrities and personal communities, and includes features to encourage personal interaction.</p> <p> By simply clicking on the button under the user/celebrity image, you can change to the celebrity/user screen that reminds you of whether you are reading carefully curated celebrity content. </p><p>This app encourages you to interact with people from your friends network by accumulating interaction points.</p> ",
-    bg:'https://bit.ly/2K2SEtn',
+    bg:'https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-texture-golden-ink-watercolor-background-styleelegantdreamgolden-backgroundbeautifulink-watercolor-image_79870.jpg',
     function:'You can only DM and tag your friends in posts which increases the Friend interaction point between you and your friend. '
   },
   {
     image:"./celebrity.png",
-    bg:'https://bit.ly/32tlPwa',
+    bg:'https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-dream-starry-sky-beautiful-blue-purple-image_20208.jpg',
     function:'You cannot DM and tag celebrities, but you can like and comment their posts. '
   }
 ]
@@ -62,16 +62,19 @@ function App() {
   return (
     <div className="App" style={{backgroundImage: 'url(' + bgPath + ')'}}>
       <div className = "header">
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Courgette|Roboto&display=swap');
+      </style>
       <h1>FriendLey</h1>
       <h2>A Social Media platform differentiates Friends and Celebrities</h2>  
       <img src={imgPath} width="100"/>
       <p>{mode}</p>
+ 
+      <button onClick={handleClick}> Click to see functions </button>
       <div className="fc">
       <p>{fcPath}</p>
       </div>
-      <button onClick={handleClick}> Click to see functions </button>
       </div> 
-
       <div  className="content">
         <div dangerouslySetInnerHTML={{__html: article[0].intro}}/>
         </div>
