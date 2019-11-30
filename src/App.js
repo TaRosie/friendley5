@@ -70,7 +70,7 @@ function App() {
       <img src={imgPath} width="100"/>
       <p>{mode}</p>
  
-      <button onClick={handleClick}> Click to see functions </button>
+      <button onClick={handleClick}> Switch </button>
       <div className="fc">
       <p>{fcPath}</p>
       </div>
