@@ -14,7 +14,7 @@ let article = [
   {
     image: './personal.png',
     intro:"<p>Our <a href = 'https://leanstack.com/app/nyushanghai/projects/505249/canvases/607523/'> FRIENDLEY</a> social media platform divides the feeds of celebrities and personal communities, and includes features to encourage personal interaction.</p> <p> By simply clicking on the button under the user/celebrity image, you can change to the celebrity/user screen that reminds you of whether you are reading carefully curated celebrity content. </p><p>This app encourages you to interact with people from your friends network by accumulating interaction points.</p> ",
-    bg:'https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-texture-golden-ink-watercolor-background-styleelegantdreamgolden-backgroundbeautifulink-watercolor-image_79870.jpg',
+    bg:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576205594&di=b13ffab7fcd5ed7e46d1c39623030c24&imgtype=jpg&er=1&src=http%3A%2F%2Fimg01.taopic.com%2F171024%2F240409-1G0240I64687.jpg',
     function:'You can only DM and tag your friends in posts which increases the Friend interaction point between you and your friend. '
   },
   {
@@ -23,6 +23,8 @@ let article = [
     function:'You cannot DM and tag celebrities, but you can like and comment their posts. '
   }
 ]
+
+
 
 function App() {
 
@@ -53,6 +55,7 @@ function App() {
     });
   }
 
+
   
 
   let imgPath = (mode === 'Personal' ? article[0].image : article[1].image);
@@ -65,8 +68,8 @@ function App() {
       <style>
       @import url('https://fonts.googleapis.com/css?family=Courgette|Roboto&display=swap');
       </style>
-      <h1>FriendLey</h1>
-      <h2>A Social Media platform differentiates Friends and Celebrities</h2>  
+      <h1 ><span class="hr3">Ba</span><span class="hr4">lan</span><span class="hr5">ce</span></h1>
+      <h2>Discourage unhealthy social media comparison.</h2>  
       <img src={imgPath} width="100"/>
       <p>{mode}</p>
  
